@@ -1,0 +1,36 @@
+.dbMainRowContainer{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.rowContainerZeroMargin{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.leftPaneContainer{
+    background-color: white;
+    height:100%;
+    .menuContainer{
+        padding-top: 15px;
+    }
+}
+
+.menuItem{
+    font-size: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: 0;
+    font-weight: 450;
+}
+.activeMenuItem{
+    background-color: #d7eaff;
+    border-left: 5px;
+    border-color: #4f73a5;
+    border-style: solid;
+
+    //border takes 5px so padding should be originalPadding-5
+    padding-left: 15px;
+}

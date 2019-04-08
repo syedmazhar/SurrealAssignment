@@ -1,0 +1,56 @@
+.eventContainer{
+    margin:0;
+    padding: 20px;
+    max-width: 100%;
+    border-bottom: 1px solid #dddddd;
+
+    .eventRowContainer{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .eventDateColumn{
+        border-right: 1px solid #dddddd;
+        .eventDateBox{
+            height: 100px;
+            width: 70px;
+            text-align: center;
+            .eventDay{
+                font-weight: 500;
+                color: #acacac;
+            }
+            .eventDate{
+                font-size: 250%;
+            }
+        }
+    }
+
+    .colEventDetails{
+        padding-left: 30px;
+        .eventTitle{
+            font-size: 120%;
+            font-weight: 600;
+        }
+        .eventDateAndTime{
+            font-weight: 600;
+            color: #acacac;
+        }
+    }
+
+    .eventbutton{
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #cbcbcb;
+        .eventBtnIcon{
+            color: #cbcbcb;
+        }
+    }
+    .buttonText{
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .shareButton{
+        margin-right: 10px;
+    }
+}

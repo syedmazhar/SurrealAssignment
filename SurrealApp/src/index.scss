@@ -1,0 +1,23 @@
+.dbHeader{
+    padding: 0;
+    border-bottom: 1px solid #dddddd;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+  }
+  .dbBodyContainer{
+    margin-right: 0;
+    /* margin-top: 80px; */
+    /* overflow: hidden; */
+  }
+  .dbMainContainer{
+    background-color: #f7f5fb;
+    padding: 20px;
+    overflow-y: scroll;
+    /* height: calc(100% - 50px); */
+  }
+  .dbSideNav{
+    padding-right: 0;
+    border-right: 1px solid #dddddd;
+  }

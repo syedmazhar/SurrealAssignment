@@ -1,0 +1,62 @@
+.similarEventContainer{
+    width: 21rem;
+    margin-right: 10px;
+    
+    .eventDetailsContainer{
+        padding: 10px;
+        .eventImageContainer{
+            padding: 0;
+            margin: 0;
+            .eventImage{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        .eventInfoContainer{
+            margin:0;
+            padding: 5px;
+            max-width: 100%;
+        
+            .eventRowContainer{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .eventDateColumn{
+                border-right: 1px solid #dddddd;
+                .eventDateBox{
+                    height: 80px;
+                    width: 70px;
+                    text-align: center;
+                    .eventDay{
+                        font-weight: 400;
+                        color: #acacac;
+                    }
+                    .eventDate{
+                        font-size: 200%;
+                    }
+                }
+            }
+
+            .colEventDetails{
+                //padding-left: 30px;
+                padding-right: 0;
+                .eventTitle{
+                    font-size: 120%;
+                    font-weight: 600;
+                }
+                .eventDateAndTime{
+                    font-weight: 600;
+                    color: #acacac;
+                }
+            }
+        }        
+    }
+    .eventActionContainer{
+        padding: 15px;
+        span{
+            line-height: 2.5;
+        }
+    }
+}

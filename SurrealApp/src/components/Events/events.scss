@@ -1,0 +1,103 @@
+.eventsSectionRowContainer{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.cardNoPadding{
+    padding: 0 !important;
+
+    .listItem{
+        font-size: 90%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0;
+        font-weight: 450;
+        border-left: none;
+        border-right: none;
+        
+        .iconInListItem{
+            width: 55px;
+        }
+    }
+    
+    .grayAndCenter{
+        font-size: 90%;
+        padding-left: 20px;
+        font-weight: 450;
+        color: #acacac;
+        text-align: center;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+.cardTitle{
+    padding-left: 35px;
+    padding-top: 16px;
+    font-size: 130%;
+    font-weight: 450;
+}
+
+.quickEventsContainer{
+    padding: 10px;
+    .colContainer{
+        //padding-right: 0;
+        //padding-left: 0;
+        padding:5px;
+    }
+    .quickEventBox{
+        margin: 5px;
+        height: 150px;
+        text-align: center;
+        width: 228px;
+        border-radius: 5px;
+
+        .quickEventIcon{
+            font-size: x-large !important;
+            color: white;
+        }
+        .quickEventTitle{
+            font-size: 130%;
+            font-weight: 450;
+            color: white;
+            margin-top: 5px;
+        }
+    }
+    .eventsToday{
+        background-color: #1198f0;    
+    }
+    .eventsTomorrow{
+        background-color: #ffc566;
+
+    }
+    .eventsThisWeek{
+        background-color: #6655ff;
+
+    }
+    .eventsChooseDate{
+        background-color: #bdbbbb;
+
+    }
+}
+
+.similarEventsContainer{
+    padding: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+    .card {
+      display: inline-block;
+    }
+}
+
+.separtorWithNoMargins{
+    margin: 0;
+}
+
+.upcomingEventsSection{
+    height: 430px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

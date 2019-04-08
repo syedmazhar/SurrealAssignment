@@ -1,0 +1,52 @@
+.divLoginMainContainer {
+  background-color: #3f51b5;
+  width: 100%;
+  height: 100%;
+};
+
+.formInputsContainer {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginForm{
+  //width: 100%;
+}
+.childDivStyle {
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 200%;
+}
+
+.headingStyle {
+  font-family: Arial;
+  font-weight: normal;
+  color: white;
+  font-size:80%;
+}
+
+.forgotPwdStyle {
+  text-align: right;
+  font-family: Arial;
+  font-size:10px;
+  font-weight: bold;
+  color: #324192;
+  cursor: pointer;
+}
+
+.divBtnContainer{
+  height: 15%;
+  //width: 100%;
+  margin-top: 20px;
+}
+
+.btnStyle{
+  background-color: #324192;
+  height: 100%;
+  width: 100%;
+  font-size:200%;
+  text-transform: capitalize;
+}

@@ -1,0 +1,46 @@
+.brandNameContainer{
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 20px;
+    max-width: 13%;
+    .brandIcon{
+        font-size: large;
+        color: #7e7e7e;
+    }
+    .brandName{
+        font-size: 120%;
+        padding-left: 10px;
+    }    
+}
+
+.dottedLeftBorder{
+    border-left: 2px dotted #dddddd;
+}
+
+.searchField{
+    border: 0;
+}
+
+.searchIcon{
+    color: #cbcbcb;
+    font-size: large;
+}
+
+.searchField:focus {
+    outline: none;
+    box-shadow:none !important;
+    border: 0;
+  }
+
+.searchIconContainer{
+    padding: 5px 0px 0px 0px;
+    text-align: right;
+    max-width: 5%;
+}
+
+.searchFieldContainer{
+    padding-left: 0px;
+}
+.userName{
+    margin-right: 10px;
+}

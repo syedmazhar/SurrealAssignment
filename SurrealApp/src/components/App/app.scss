@@ -1,0 +1,33 @@
+.rowsColsContainer{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    .rowContainer{
+        width: 100%;
+    }
+ }
+
+ .grayHeadingContainer{
+    font-size: 90%;
+    padding-left: 20px;
+    font-weight: 450;
+    color: #acacac;
+}
+
+.mainContainer{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.readOnlyText{
+    font-size: 90%;
+    font-weight: 400;
+    color: #acacac;
+}
+
+
+// ::-webkit-scrollbar {
+//     width: 0px;  /* remove scrollbar space */
+//     background: transparent;  /* optional: just make scrollbar invisible */
+// }
