@@ -40,16 +40,16 @@ class App extends React.Component {
         let history = this.state.history;
         return (
                 <div className="fullHeight">
-                    {this.state.arrLogin.length == 1 && this.state.arrLogin[0] == true ? 
+                    {/* {this.state.arrLogin.length == 1 && this.state.arrLogin[0] == true ?  */}
                         <div>
                             <header className="app-header navbar dbHeader" >
                                 <Header firebase={fb} onChange={data => {this.setState({ arrLogin: data })}} />
                             </header>
                             <div className="app-body row dbBodyContainer"><AppBodyContainer /></div>
                         </div>
-                        :
+                        {/* :
                         <Login firebase={fb} history={history} onChange={data => {this.setState({ arrLogin: data })}}/>
-                    }
+                    } */}
                 </div>
             );
     }
